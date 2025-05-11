@@ -100,9 +100,12 @@ function App() {
           <Typography variant="h4" component="h1" gutterBottom>
             Bank Statement Processor
           </Typography>
+           <Typography variant="body1" color="text.secondary" align="center" sx={{ mb: 2 }}>
+            Upload your bank statement to process transactions and generate a categorized report
+          </Typography>
           
           <Typography variant="body1" color="text.secondary" align="center" sx={{ mb: 2 }}>
-            Upload your bank statement to process transactions and generate a categorized report
+            data should be between B13:I13 cells and excel should be .xlsx format
           </Typography>
 
           <Button
